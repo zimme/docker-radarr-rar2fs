@@ -41,7 +41,6 @@ RUN apt-get update && \
 # Install rar2fs
 COPY rar2fs-assets/install_rar2fs.sh /tmp/
 RUN /bin/sh /tmp/install_rar2fs.sh
-RUN mkdir /data-unrar
 
 
 # CLEAN Image

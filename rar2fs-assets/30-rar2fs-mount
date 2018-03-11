@@ -5,6 +5,6 @@ if [ "${DEBUG,,}" = "true" ]; then
   set -x
 fi
 
-rar2fs --seek-length=1 -o allow_other /data /data-unrar
+rar2fs --seek-length=1 -o allow_other /data /mnt
 
 echo "Rar2fs setup complete - Mounted data drive"
